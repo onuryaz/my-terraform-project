@@ -1,0 +1,13 @@
+[
+    {
+        "name": "flask",
+        "image": "372286523465.dkr.ecr.eu-west-1.amazonaws.com/flask-hello-world:latest",
+        "essential": true,
+        "portMappings": [{
+            "containerPort": 5000
+        }],
+        "memory": 512,
+        "cpu": 256,
+        "network_mode": "awsvpc"
+    }
+]
