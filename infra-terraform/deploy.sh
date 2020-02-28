@@ -2,16 +2,16 @@
 
 
 # set aws env. variables 
-export AWS_ACCESS_KEY_ID="AKIAVNLQBRBEVNJMXXXZ"
-export AWS_SECRET_ACCESS_KEY="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"
+export AWS_ACCESS_KEY_ID="AKIAVNLQXXXXXXXXXXZ"
+export AWS_SECRET_ACCESS_KEY="XXXXXXXXXXXXXXX"
 export AWS_DEFAULT_REGION="eu-west-1"
-export AWS_ACCOUNT="372286523465"
+export AWS_ACCOUNT="3333333333333"
 
 
 # set ecr and project variables 
 SERVICE_NAME="flask-hello-world"
 SERVICE_TAG="latest"
-ECR_REPO_URL="372286523465.dkr.ecr.eu-west-1.amazonaws.com/${SERVICE_NAME}"
+ECR_REPO_URL="3333333333335.dkr.ecr.eu-west-1.amazonaws.com/${SERVICE_NAME}"
 
 
 # dockerize the project and and push into ECR repo
